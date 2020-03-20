@@ -1,0 +1,131 @@
+header,nav,main,footer{
+    display: block;
+    width: 1078px;
+}
+#container{
+    position: relative;
+    margin: auto;
+    margin-top: 14%;
+    width: 1078px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+}
+body{
+    color: #ffffff;
+    background-color: #073a59;
+    margin: 0px;
+    text-align: center;
+    font-family: "Arial";
+    font-weight: bold;
+}
+header{
+    background-color: skyblue;
+    height: 100px;
+    position: relative;
+    text-align: center;
+}
+nav{
+    background-color: brown;
+    height: 50px;
+}
+main{
+    background-color:  rebeccapurple;
+    height: auto;
+    overflow: hidden;
+}
+footer{
+    background-color: rebeccapurple;
+    height: 50px;
+}
+#col-left{
+    background-color: #006acc;
+    width: 200px;
+    height: 240px;
+    float: left;
+}
+#col-center{
+    height: auto;
+    width: 878px;
+}
+footer{
+    background-color: hotpink;
+    clear: both;
+}
+
+#logo{
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    border: 2px dotted #731980;
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+#logo img{
+    max-height: 80px;
+}
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+#imie{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#lp{
+    width: 10px;
+}
+table,th,td{
+    text-align: left;
+    padding-left: 6px;
+    border: 2px solid;
+    height: 30px;
+    width: 500px;
+    color: black;
+}
+tr:nth-child(odd){
+   background-color: aliceblue 
+}
+tr:nth-child(even){
+   background-color: gainsboro;
+}
+th:nth-child(1){
+    padding-left: 5px;
+    background-color: gray;
+    border-bottom-style: solid;
+}
+tr:nth-child(3){
+    border-bottom-style:hidden;
+}
+tr:nth-child(4){
+    border-bottom-style:hidden;
+}
+tr:nth-child(5){
+    border-bottom-style:hidden;
+}
+th:nth-child(2){
+    padding-left: 5px;
+    background-color: gray;
+}
+th:nth-child(3){
+    padding-left: 5px;
+    background-color: gray;
+}
+td:nth-child(1){
+    padding-left: 5px;
+}
+td:nth-child(2){
+    padding-right: 30px;
+    padding-left: 5px;
+
+}
+td:nth-child(3){
+    padding-right: 30px;
+    padding-left: 5px;
+}
+td:nth-child(4){
+    padding-right: 30px;
+    padding-left: 5px;
+}
