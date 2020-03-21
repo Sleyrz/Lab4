@@ -1,3 +1,12 @@
+let input  = document.querySelector('input');
+let input_0 = document.getElementById("contactName");
+let input_1 = document.getElementById("contactLastName");
+let input_2 = document.getElementById("contactEmail");
+
+if(input_0 && input_1 && input_2 == true){
+    input.onchange = checkForm;
+}
+
 function checkForm(){
  var error=false; 
  var errorText=document.getElementById("errorName").className="alert alertdanger";
@@ -40,3 +49,4 @@ var errorEmail=document.getElementById("errorEmail").className="alert alertdange
      return false;
     } 
 }
+ 
